@@ -18,6 +18,7 @@
 		77EE58212896A31200D4649A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77EE58202896A31200D4649A /* Assets.xcassets */; };
 		77EE58242896A31200D4649A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EE58222896A31200D4649A /* LaunchScreen.storyboard */; };
 		77EE582A2896D94B00D4649A /* ViewScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EE58292896D94B00D4649A /* ViewScale.swift */; };
+		77EE582E2896F98A00D4649A /* ViewScale.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 77EE582D2896F98A00D4649A /* ViewScale.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		77EE58232896A31200D4649A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77EE58252896A31200D4649A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77EE58292896D94B00D4649A /* ViewScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewScale.swift; sourceTree = "<group>"; };
+		77EE582D2896F98A00D4649A /* ViewScale.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewScale.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		77EE57ED28969FFB00D4649A = {
 			isa = PBXGroup;
 			children = (
+				77EE582D2896F98A00D4649A /* ViewScale.podspec */,
 				77EE57F928969FFB00D4649A /* ViewScale */,
 				77EE580528969FFB00D4649A /* ViewScaleTests */,
 				77EE58162896A30D00D4649A /* ViewScaleExamples */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77EE582E2896F98A00D4649A /* ViewScale.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
