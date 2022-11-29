@@ -6,14 +6,17 @@
 //
 
 import UIKit
+import ViewScale
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var navigationBar: UINavigationBar!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    navigationBar.setBackgroundImage(UIImage(), for: .default)
+    navigationBar.isTranslucent = true
   }
-
 
 }
 
