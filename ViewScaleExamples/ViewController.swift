@@ -14,6 +14,7 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    view.scale(kFor5: 0.75, kFor8: 0.85) {
     navigationBar.setBackgroundImage(UIImage(), for: .default)
     navigationBar.isTranslucent = true
   }

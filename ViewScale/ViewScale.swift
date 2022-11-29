@@ -21,7 +21,7 @@ public final class ViewScaleCodeTest {
     
 }
 
-extension UIView {
+public extension UIView {
     
   func callRecursively(level: Int = 0, _ body: (_ subview: UIView, _ level: Int) -> Void) {
     body(self, level)
@@ -58,7 +58,7 @@ extension UIView {
   
 }
 
-extension UILabel {
+public extension UILabel {
     
     func scaleFont(_ k: CGFloat) {
         let fontSize = font.pointSize
@@ -67,7 +67,7 @@ extension UILabel {
     
 }
 
-extension UIButton {
+public extension UIButton {
   
   func scaleFont(_ k: CGFloat) {
     let fontSize: Double = Double(titleLabel?.font.pointSize ?? 0.0)
