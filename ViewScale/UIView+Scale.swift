@@ -1,35 +1,37 @@
 //
-//  ViewScale.swift
+//  UIView+Scale.swift
 //  ViewScale
 //
-//  Created by Andrew on 31.07.22.
+//  Created by Andrei Dobysh on 31.07.22.
 //
 
 import Foundation
 import UIKit
 
-public final class ViewScaleCodeTest {
-
-  let name = "ViewScale"
-  
-  public func add(a: Int, b: Int) -> Int {
-    return a + b
-  }
-  
-  public func sub(a: Int, b: Int) -> Int {
-    return a - b
-  }
-    
-}
-
+/// Implementation of UI scaling.
 public extension UIView {
     
-  func callRecursively(level: Int = 0, _ body: (_ subview: UIView, _ level: Int) -> Void) {
+  /// This recursive method allows you to access each `UIView` in the view hierarchy.
+  ///
+  /// - Parameters:
+  ///   - level: Current level in the view hierarchy.
+  ///   - body: Closure to execute the code for each `UIView`.
+  fileprivate func callRecursively(level: Int = 0, _ body: (_ subview: UIView, _ level: Int) -> Void) {
     body(self, level)
     subviews.forEach { $0.callRecursively(level: level + 1, body) }
   }
-    
+  
+  @available(*, deprecated, message: "Use method `scale()` instead")
   func scaleDemo(kFor5: CGFloat? = nil, kFor8: CGFloat? = nil) {
+    scale(kFor5: kFor5, kFor8: kFor8)
+  }
+    
+  /// This method will scale all constraints into the `UIView` including all subviews.
+  ///
+  /// - Parameters:
+  ///   - kFor5: The scale а coefficient for 320x568 points screen size iPhones like iPhone 5, SE gen 1 etc.
+  ///   - kFor8: The scale а coefficient for 375x667 points screen size iPhones like iPhone 6, 7, 8, SE gen 2 etc.
+  func scale(kFor5: CGFloat? = nil, kFor8: CGFloat? = nil) {
     var scaleFactor = min(UIScreen.main.bounds.width / 390, 1)
     if let kFor5 = kFor5,
         UIScreen.main.bounds.width <= 320 {
@@ -55,24 +57,6 @@ public extension UIView {
         }
       }
     }
-  }
-  
-}
-
-public extension UILabel {
-    
-    func scaleFont(_ k: CGFloat) {
-        let fontSize = font.pointSize
-        font = font.withSize(fontSize * k)
-    }
-    
-}
-
-public extension UIButton {
-  
-  func scaleFont(_ k: CGFloat) {
-    let fontSize: Double = Double(titleLabel?.font.pointSize ?? 0.0)
-    titleLabel?.font = titleLabel?.font.withSize(fontSize * k)
   }
   
 }

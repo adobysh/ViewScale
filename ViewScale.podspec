@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ViewScale"
-  spec.version      = "0.0.3"
-  spec.summary      = "Fast UI development for small screens"
+  spec.version      = "0.0.4"
+  spec.summary      = "UIView scale for fast UI development"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  Automatically scales UI on small screens saving development time.
+  Automatically scales UI on small screens saving development time
+  with only one line of code.
                    DESC
 
   spec.homepage     = "https://github.com/adobysh/ViewScale"
@@ -68,7 +69,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "15.0"
+  spec.ios.deployment_target = "12.4"
   # spec.osx.deployment_target = "12.0"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"

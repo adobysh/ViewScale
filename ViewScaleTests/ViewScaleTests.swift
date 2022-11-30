@@ -2,9 +2,10 @@
 //  ViewScaleTests.swift
 //  ViewScaleTests
 //
-//  Created by Andrew on 31.07.22.
+//  Created by Andrei Dobysh on 31.07.22.
 //
 
+// TODO: Tests is not implemented yet.
 import XCTest
 @testable import ViewScale
 

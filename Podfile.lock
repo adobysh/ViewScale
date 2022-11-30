@@ -1,5 +1,5 @@
 PODS:
-  - ViewScale (0.0.1)
+  - ViewScale (0.0.3)
 
 DEPENDENCIES:
   - ViewScale
@@ -9,7 +9,7 @@ SPEC REPOS:
     - ViewScale
 
 SPEC CHECKSUMS:
-  ViewScale: 5d8855ae172bd1af6a09c0f27d21715468518564
+  ViewScale: 78a2d040e38ac04bd30ac7a0aaa0b33dccb5598c
 
 PODFILE CHECKSUM: 6524dec082572afe4056862173c78e5882b9a9d2
 
