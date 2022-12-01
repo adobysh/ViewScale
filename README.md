@@ -17,7 +17,8 @@
 You can create UI for iPhone 14 and will get UI for other models like iPhone 5 or iPhone 8 with only one line of code.
 [You can find more details about the implementation in my article](https://hackernoon.com/get-the-same-ui-for-all-iphone-screens-using-nslayoutconstraint-scaling).
 
-<p align="center"><img src="https://raw.githubusercontent.com/adobysh/ViewScale/main/Demo.png"/>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/adobysh/ViewScale/main/Demo.png" width="500" max-width="80%" alt="Demo" />
 </p>
 
 ## Requirements
@@ -61,6 +62,16 @@ Or you can change scale coefficient for both 320x568 and 375x667 points screen s
 view.scale(kFor5: 0.75, kFor8: 0.85)
 ```
 
+## Example
+UI before usage (Storyboard implemented for iPhone 13 Pro only):
+<p align="center">
+    <img src="https://raw.githubusercontent.com/adobysh/ViewScale/main/Demo_Before.png" width="500" max-width="80%" alt="Demo Before" />
+</p>
+
+After usage of `view.scase()`:
+<p align="center">
+    <img src="https://raw.githubusercontent.com/adobysh/ViewScale/main/Demo.png" width="500" max-width="80%" alt="Demo After" />
+</p>
 
 ## DEMO
 There is a demo project added to this repository, so you can see how it works.
