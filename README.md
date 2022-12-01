@@ -2,6 +2,7 @@
 
 <p align="left">
     <img src="https://img.shields.io/badge/Swift-5.0-orange.svg" />
+    <img src="https://img.shields.io/badge/platform-iOS-lightgrey.svg" />
     <a href="https://cocoapods.org/pods/ViewScale">
         <img src="https://img.shields.io/cocoapods/v/ViewScale.svg?style=flat" alt="Pod Version">
     </a>
@@ -13,7 +14,7 @@
     </a>
 </p>
 
-**ViewScale** Automatically scales UI for small screens saving development time with only one line of code.
+**ViewScale** automatically scales UI for small screens saving development time with only one line of code.
 You can create UI for iPhone 14 and will get UI for other models like iPhone 5 or iPhone 8 with only one line of code.
 [You can find more details about the implementation in my article](https://hackernoon.com/get-the-same-ui-for-all-iphone-screens-using-nslayoutconstraint-scaling).
 
