@@ -5,7 +5,7 @@
     <a href="https://cocoapods.org/pods/ViewScale">
         <img src="https://img.shields.io/cocoapods/v/ViewScale.svg?style=flat" alt="Pod Version">
     </a>
-    <a href="">
+    <a href="https://github.com/adobysh/ViewScale/blob/main/LICENSE">
         <img src="https://img.shields.io/badge/Licence-MIT-green.svg" alt="License">
     </a>
     <a href="https://www.linkedin.com/in/adobysh">
