@@ -38,7 +38,7 @@ pod 'ViewScale'
 Just drag `UIView+Scale.swift`, `UILabel+Scale.swift` and `UIButton+Scale.swift` to your project.
 
 ## How to use
-#### Add `view.scale()` into `viewDidLoad()` method of your view controller
+Add `view.scale()` into `viewDidLoad()` method of your view controller:
 ```swift
 override func viewDidLoad() {
   super.viewDidLoad()
@@ -68,7 +68,7 @@ UI before usage (Storyboard implemented for iPhone 13 Pro only):
     <img src="https://raw.githubusercontent.com/adobysh/ViewScale/main/Demo_Before.png" width="500" max-width="80%" alt="Demo Before" />
 </p>
 
-After usage of `view.scase()`:
+After usage of `view.scale()`:
 <p align="center">
     <img src="https://raw.githubusercontent.com/adobysh/ViewScale/main/Demo.png" width="500" max-width="80%" alt="Demo After" />
 </p>
