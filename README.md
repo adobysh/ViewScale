@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/cocoapods/v/ViewScale.svg?style=flat" alt="Pod Version">
     </a>
     <a href="https://github.com/adobysh/ViewScale/blob/main/LICENSE">
-        <img src="https://img.shields.io/badge/Licence-MIT-green.svg" alt="License">
+        <img src="https://img.shields.io/badge/licence-MIT-green.svg" alt="License">
     </a>
     <a href="https://www.linkedin.com/in/adobysh">
         <img src="https://img.shields.io/badge/contact-Andrew Dobysh-blue.svg?style=flat&logo=linkedin" alt="LinkedIn: Andrew Dobysh" />
