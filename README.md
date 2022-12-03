@@ -15,7 +15,7 @@
 </p>
 
 **ViewScale** automatically scales UI for small screens saving development time with only one line of code.
-You can create UI for iPhone 14 and will get UI for other models like iPhone 5 or iPhone 8 with only one line of code.
+You can create a UI for iPhone 14 and will get a UI for other models like iPhone 5 or iPhone 8 with only one line of code.
 [You can find more details about the implementation in my article](https://hackernoon.com/get-the-same-ui-for-all-iphone-screens-using-nslayoutconstraint-scaling).
 
 <p align="center">
